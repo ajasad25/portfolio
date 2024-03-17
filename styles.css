@@ -1,0 +1,239 @@
+/* Global Styles */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #7262d1;
+    color: #0a0a0a;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    align-items: center;
+  }
+  
+  /* Navbar */
+  .navbar {
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px 0;
+  }
+  
+  .navbar .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .brand a {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+    text-decoration: none;
+  }
+  
+  .navbar-links a {
+    margin-left: 20px;
+    font-size: 16px;
+    color: #333;
+    text-decoration: none;
+  }
+  
+  /* Hero Section */
+  .hero {
+    background-color: #ff1100;
+    color: #271b1b;
+    padding: 100px 0;
+  }
+  
+  .hero h1 {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .hero p {
+    font-size: 18px;
+    line-height: 1.5;
+  }
+  
+  /* About Section */
+  .about {
+    padding: 80px 0;
+  }
+  
+  .about h2 {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 40px;
+  }
+  
+  .about-text h3 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .about-text p {
+    font-size: 18px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+  }
+  
+  .skills {
+    margin-top: 20px;
+  }
+  
+  .skill {
+    margin-bottom: 10px;
+  }
+  
+  .skill p {
+    font-size: 18px;
+    margin-bottom: 5px;
+  }
+  
+  .progress {
+    background-color: #ddd;
+    border-radius: 5px;
+    height: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .progress-bar {
+    background-color: #007bff;
+    border-radius: 5px;
+    height: 20px;
+    text-align: center;
+    line-height: 20px;
+    color: #fff;
+  }
+  
+  /* Portfolio Section */
+  .portfolio {
+    padding: 80px 0;
+  }
+  
+  .portfolio h2 {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 40px;
+  }
+  
+  /* Contact Section */
+  .contact {
+    padding: 80px 0;
+    align-items: center;
+  }
+  
+  .contact h2 {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 40px;
+  }
+  
+  .contact p {
+    font-size: 18px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+  }
+  
+  .contact-form input,
+  .contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  .contact-form button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .contact-form button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Footer */
+  .footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+  }
+  
+  .footer p {
+    font-size: 16px;
+  }
+  
+  .social-links a {
+    display: inline-block;
+    margin: 0 10px;
+    font-size: 24px;
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  /* Logo Section */
+  .logo {
+    background-color: #f4f4f4;
+    padding: 20px 0;
+  }
+  
+  .logo .container {
+    text-align: center;
+  }
+  
+  .logo img {
+    height: 50px;
+  }
+  
+  /* Download Resume Button */
+  .download-resume-button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .download-resume-button:hover {
+    background-color: #0056b3;
+  }
+  
+  .download-resume-button i {
+    margin-right: 5px;
+  }
+  /* Circular Image */
+  .circular-image {
+    display: block;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 0 auto;
+  }
+  
+  .circular-image img {
+    width: 100%;
+    height: auto;
+  }
